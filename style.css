@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    height: 770px;
+}
 .top-banner{
     display: flex;
     background-image: url(images/top-banner.png);
@@ -22,6 +25,8 @@ body{
 .half-width p{
     font-size: 16px;
     color: #696969;
+    padding-right: 10%;
+    text-align: justify;
 }
 h1{
     font-size: 50px;
@@ -36,4 +41,12 @@ h1 span{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dreambig-container{
+    display: flex;
+    position: left;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
