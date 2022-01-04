@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 section{
-    height: 770px;
+    height: 700px;
 }
 .top-banner{
     display: flex;
@@ -29,7 +29,7 @@ section{
     text-align: justify;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h1 span{
     color: orange;
@@ -49,4 +49,37 @@ h1 span{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.experience-container{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.experience-container p{
+    font-size: 16px;
+    color: #696969;
+}
+.experience-container div{
+    box-shadow: 5px 7px 40px gray;
+    height: 50%;
+}
+.exp-title{
+    color: orange;
+}
+
+#full-stack{
+margin: 2%;
+border-left: orange 5px solid;
+}
+#baby-dev{
+margin: 2%;
+border-right: tomato 5px solid;
+}
+
+footer{
+    text-align: center;
 }
